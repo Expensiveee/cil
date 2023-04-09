@@ -23,8 +23,10 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-2/3">
           <video
+            type="video/mp4"
             className="object-contain w-auto h-[450px] mx-auto rounded-md shadow-2xl transition-all duration-300 cursor-pointer"
             autoPlay={true}
+            playsinline={true}
             muted={true}
             loop={true}
           >
