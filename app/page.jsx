@@ -38,18 +38,18 @@ export default function Home() {
         id="equipe"
         className="px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-4"
       >
-        <h1 className="text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
+        <h1 className="text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           Notre Équipe
         </h1>
 
         <div className="w-full gap-6 flex flex-col lg:flex-row items-center justify-center py-4">
-          <div className="w-2/3 lg:w-2/4 lg:h-auto relative text-white shadow flex flex-col items-center justify-end">
+          <div className="w-full lg:w-2/4 lg:h-auto relative text-white shadow flex flex-col items-center justify-end">
             <img
               src={"/images/equipe/1.jpg"}
               className="z-10 h-auto w-full rounded-xl shadow-xl"
             />
             <div className="absolute bottom-0 left-0 z-20 ">
-              <h3 className="text-2xl pl-5 text-white font-bold text-left w-full">
+              <h3 className="text-xl pl-5 text-white font-bold text-left w-full">
                 Dr Jalil Chraibi
               </h3>
               <p className="text-white pl-5 pb-2 text-lg z-20 font-light text-left w-full">
@@ -57,13 +57,13 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="w-2/3 lg:w-2/4 h-auto relative text-white shadow flex flex-col items-center justify-end">
+          <div className="w-full lg:w-2/4 h-auto relative text-white shadow flex flex-col items-center justify-end">
             <img
               src={"/images/equipe/2.jpg"}
               className="z-10 h-auto w-full rounded-xl shadow-xl"
             />
             <div className="absolute bottom-0 left-0 z-20 ">
-              <h3 className="text-2xl pl-5 text-white font-bold text-left w-full">
+              <h3 className="text-xl pl-5 text-white font-bold text-left w-full">
                 Dr Alaoui Bouhamid Ahmed
               </h3>
               <p className="text-white pl-5 pb-2 text-lg z-20 font-light text-left w-full">
@@ -71,13 +71,13 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="w-2/3 lg:w-2/4 h-auto relative text-white shadow flex flex-col items-center justify-end">
+          <div className="w-full lg:w-2/4 h-auto relative text-white shadow flex flex-col items-center justify-end">
             <img
               src={"/images/equipe/3.jpg"}
               className="z-10 h-auto w-full rounded-xl shadow-xl"
             />
             <div className="absolute bottom-0 left-0 z-20 ">
-              <h3 className="text-2xl pl-5 text-white font-bold text-left w-full">
+              <h3 className="text-xl pl-5 text-white font-bold text-left w-full">
                 Dr Khairouni Hind
               </h3>
               <p className="text-white pl-5 pb-2 text-lg z-20 font-light text-left w-full">
