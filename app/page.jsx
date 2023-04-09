@@ -9,25 +9,28 @@ export default function Home() {
         id="#"
         className="px-8 w-full bg-[url('/images/pattern.svg')] bg-cil-200 from-cil-300 to-cil-100 min-h-[32rem] h-full pt-12 lg:pt-20 flex flex-col lg:flex-row items-start justify-evenly py-12"
       >
-        <div className="w-full text-white text-left lg:text-left lg:w-2/5 px-4">
+        <div className="w-full text-white text-left lg:text-left lg:w-2/3 px-4">
           <h1 className="text-6xl font-bold">Clinique Dentaire CIL</h1>
           <h3 className="text-3xl font-light my-6">
             Votre sourire c'est notre gage
           </h3>
           <Link href={"tel:+212522946574"}>
-            <button className="flex lg:mx-auto lg:m-0 mb-8 items-center bg-white px-6 py-2 text-cil-100 rounded-3xl">
+            <button className="flex mx-auto lg:m-0 mb-8 items-center jus bg-white px-6 py-2 text-cil-100 rounded-3xl">
               <PhoneIcon className="h-4 w-4 mr-2" />
               <span>Prendre Rendez-Vous</span>
             </button>
           </Link>
         </div>
-        <Image
-          src="/images/hero.jpg"
-          alt="Hero Image"
-          width={750}
-          height={600}
-          className="object-contain mx-auto rounded-md shadow-2xl transition-all duration-300 cursor-pointer"
-        />
+        <div className="w-full lg:w-2/3">
+          <video
+            className="object-contain w-auto h-[450px] mx-auto rounded-md shadow-2xl transition-all duration-300 cursor-pointer"
+            autoPlay={true}
+            muted={true}
+            loop={true}
+          >
+            <source src="/videos/hero.mp4" />
+          </video>
+        </div>
       </section>
       <section
         id="equipe"
