@@ -5,10 +5,7 @@ import { PhoneIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center">
-      <section
-        id="#"
-        className="px-8 w-full bg-[url('/images/pattern.svg')] bg-cil-200 from-cil-300 to-cil-100 min-h-[32rem] h-full pt-12 lg:pt-20 flex flex-col lg:flex-row items-start justify-evenly py-12"
-      >
+      <section className="px-4 w-full bg-[url('/images/pattern.svg')] bg-cil-200 from-cil-300 to-cil-100 min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-4">
         <div className="w-full text-white text-left lg:text-left lg:w-2/3 px-4">
           <h1 className="text-6xl font-bold">Clinique Dentaire CIL</h1>
           <h3 className="text-3xl font-light my-6">
@@ -39,7 +36,7 @@ export default function Home() {
         className="px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-4"
       >
         <h1 className="text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
-          Notre Équipe
+          L'Équipe
         </h1>
 
         <div className="w-full gap-6 flex flex-col lg:flex-row items-center justify-center py-4">
