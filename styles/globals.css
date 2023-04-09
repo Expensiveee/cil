@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-poppins);
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 4rem;
+}
+
+@media (max-width: 768px) {
+  body::before {
+    display: block;
+    content: "";
+    height: 3rem;
+  }
+}
+
+@layer utilities {
+  .active {
+    background-color: red;
+  }
+}
