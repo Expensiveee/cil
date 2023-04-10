@@ -85,18 +85,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <img
-        className="rotate-180 relative bottom-[-1px]"
-        src="/wave.svg"
-        width={"100%"}
-        height={"auto"}
-        alt=""
-      />
-
       <section
         id="equipe"
-        className="px-12 border-t-0 w-full bg-gradient-to-l from-blue-800 to-blue-950 pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20"
+        className="px-12 border-t-0 w-full bg-gradient-to-r from-blue-800 to-blue-950 pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20"
       >
         <h1 className="text-white text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           Nous retrouver
@@ -104,8 +95,8 @@ export default function Home() {
         <div className="flex items-center justify-center w-full h-auto">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1893756426302!2d-7.658092685293807!3d33.57443198073858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3276dc0fb73%3A0x5055c8faa79cacae!2sClinique%20Dentaire%20CIL!5e0!3m2!1sen!2sma!4v1681158273738!5m2!1sen!2sma"
-            width="600px"
-            height="400px"
+            width="85%"
+            height="600px"
             className="border-0"
             allowFullscreen="false"
             loading="lazy"
@@ -113,6 +104,13 @@ export default function Home() {
           ></iframe>
         </div>
       </section>
+      <img
+        className="relative bottom-[2px]"
+        src="/wave.svg"
+        width={"100%"}
+        height={"auto"}
+        alt=""
+      />
     </main>
   );
 }
