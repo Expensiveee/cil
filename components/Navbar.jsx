@@ -10,11 +10,11 @@ export default () => {
   const pathname = usePathname();
 
   return (
-    <nav className="z-50 sticky top-0 w-full md:max-w-[1600px] h-12 md:h-16 md:flex md:items-center border-b-0 md:border-b-2 md:border-b-cil-100  md:justify-between bg-white/40 shadow-md backdrop-blur-xl md:px-4">
-      <div className="z-40 flex border-b-2 border-b-cil-100 md:border-none relative py-4 bg-transparent h-full items-center justify-between px-4 md:px-0">
+    <nav className="z-50 sticky top-0 w-full md:max-w-[1600px] h-12 md:h-16 md:flex md:items-center border-b-0 md:border-b-2 md:border-b-blue-800  md:justify-between bg-white/40 shadow-md backdrop-blur-xl md:px-4">
+      <div className="z-40 flex border-b-2 border-b-blue-800 md:border-none relative py-4 bg-transparent h-full items-center justify-between px-4 md:px-0">
         <Link href="/">
           <Image
-            src={"/images/logo.png"}
+            src={"/logo.png"}
             width={130}
             height={130}
             className={"object-contain"}
@@ -30,8 +30,8 @@ export default () => {
         }`}
       >
         <li
-          className={`text-left px-2 py-1 rounded-lg ${
-            pathname === "/" ? "bg-cil-100 text-white" : ""
+          className={`text-left px-3 py-1 rounded-xl ${
+            pathname === "/" ? "bg-blue-700 text-white" : ""
           }`}
         >
           <Link scroll={false} className="text-sm" href="/">
@@ -39,8 +39,8 @@ export default () => {
           </Link>
         </li>
         <li
-          className={`text-left px-2 py-1 rounded-lg ${
-            pathname === "/gallerie" ? "bg-cil-100 text-white" : ""
+          className={`text-left px-3 py-1 rounded-xl ${
+            pathname === "/gallerie" ? "bg-blue-700 text-white" : ""
           }`}
         >
           <Link scroll={false} className="text-sm" href="/gallerie">
@@ -48,8 +48,8 @@ export default () => {
           </Link>
         </li>
         <li
-          className={`text-left px-2 py-1 rounded-lg ${
-            pathname === "/a-propos" ? "bg-cil-100 text-white" : ""
+          className={`text-left px-3 py-1 rounded-xl ${
+            pathname === "/a-propos" ? "bg-blue-700 text-white" : ""
           }`}
         >
           <Link scroll={false} className="text-sm" href="#a-propos">

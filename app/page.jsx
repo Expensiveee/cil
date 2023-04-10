@@ -5,14 +5,14 @@ import { PhoneIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center">
-      <section className="px-4 bg-no-repeat bg-cover bg-[url('/images/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-6">
-        <div className="w-full text-white text-left lg:text-left lg:w-2/3 px-4">
+      <section className="px-4 bg-no-repeat bg-cover bg-[url('/pattern-1.svg')] md:bg-[url('/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-20">
+        <div className="w-full text-white md:text-blue-950 text-left lg:text-left lg:w-2/3 px-4">
           <h1 className="text-6xl font-bold">Clinique Dentaire CIL</h1>
-          <h3 className="text-3xl font-light my-6">
+          <h3 className="text-2xl font-light my-6">
             Votre sourire c'est notre gage
           </h3>
           <Link href={"tel:+212522946574"}>
-            <button className="flex mx-auto lg:m-0 mb-8 items-center jus bg-white px-6 py-2 text-cil-300 rounded-3xl">
+            <button className="flex mx-auto bg-right-bottom lg:m-0 mb-8 items-center jus bg-blue-800 px-6 py-2 text-white rounded-3xl">
               <PhoneIcon className="h-4 w-4 mr-2" />
               <span>Prendre Rendez-Vous</span>
             </button>
@@ -34,9 +34,9 @@ export default function Home() {
 
       <section
         id="equipe"
-        className="px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-4"
+        className="px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20"
       >
-        <h1 className="text-black text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
+        <h1 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           L'Équipe
         </h1>
 
@@ -87,8 +87,8 @@ export default function Home() {
       </section>
 
       <img
-        className="rotate-180"
-        src="/images/wave.svg"
+        className="rotate-180 relative bottom-[-1px]"
+        src="/wave.svg"
         width={"100%"}
         height={"auto"}
         alt=""
@@ -96,7 +96,7 @@ export default function Home() {
 
       <section
         id="equipe"
-        className="px-12 w-full bg-gradient-to-r from-cil-100 to-cil-300 pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-4"
+        className="px-12 border-t-0 w-full bg-gradient-to-l from-blue-800 to-blue-950 pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20"
       >
         <h1 className="text-white text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           Nous retrouver
