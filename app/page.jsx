@@ -96,7 +96,7 @@ export default function Home() {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1893756426302!2d-7.658092685293807!3d33.57443198073858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3276dc0fb73%3A0x5055c8faa79cacae!2sClinique%20Dentaire%20CIL!5e0!3m2!1sen!2sma!4v1681158273738!5m2!1sen!2sma"
             width="85%"
-            height="600px"
+            height="400px"
             className="border-0"
             allowFullscreen="false"
             loading="lazy"
