@@ -46,7 +46,7 @@ export default () => {
                   height={20}
                   className="object-contain mr-2"
                 />
-                @dr.chari
+                @dr.chraibi
               </p>
             </a>
           </div>
