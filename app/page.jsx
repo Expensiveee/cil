@@ -5,7 +5,7 @@ import { PhoneIcon } from "@heroicons/react/24/solid";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center">
-      <section className="px-4 w-full bg-cil-200 min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-4">
+      <section className="px-4 w-full bg-[url('/images/pattern.svg'), #3a889e] min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-4">
         <div className="w-full text-white text-left lg:text-left lg:w-2/3 px-4">
           <h1 className="text-6xl font-bold">Clinique Dentaire CIL</h1>
           <h3 className="text-3xl font-light my-6">
