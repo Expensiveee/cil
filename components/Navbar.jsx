@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import { Turn as Hamburger } from "hamburger-react";
 
 export default () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ export default () => {
           />
         </Link>
         <span onClick={() => setIsOpen(!isOpen)} className="md:hidden">
-          {isOpen ? "Close" : "Open"}
+          <Hamburger size={20} toggled={isOpen} />
         </span>
       </div>
       <ul
