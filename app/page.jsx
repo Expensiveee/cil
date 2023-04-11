@@ -1,8 +1,63 @@
-import Image from "next/image";
+"use client";
 import Link from "next/link";
+import { ProGallery } from "pro-gallery";
 import { PhoneIcon } from "@heroicons/react/24/solid";
+import "pro-gallery/dist/statics/main.css";
+
+const items = [
+  {
+    itemId: "1",
+    mediaUrl: "/clinique/1.jpeg",
+    metaData: {
+      type: "image",
+      height: 1170,
+      width: 1170,
+    },
+  },
+  {
+    itemId: "2",
+    mediaUrl: "/clinique/2.jpeg",
+    metaData: {
+      type: "image",
+      height: 1170,
+      width: 800,
+    },
+  },
+  {
+    itemId: "3",
+    mediaUrl: "/clinique/3.jpeg",
+    metaData: {
+      type: "image",
+      height: 1170,
+      width: 780,
+    },
+  },
+];
 
 export default function Home() {
+  const options = {
+    layoutParams: {
+      structure: {
+        galleryLayout: 0,
+        galleryRatio: {
+          value: 1,
+        },
+        scrollDirection: "HORIZONTAL",
+      },
+    },
+    behaviourParams: {
+      item: {
+        overlay: {
+          hoveringBehaviour: "NEVER_SHOW",
+        },
+      },
+    },
+  };
+
+  const container = {
+    width: 1000,
+    height: 500,
+  };
   return (
     <main className="flex flex-col items-center justify-center">
       <section className="px-4 bg-no-repeat bg-cover bg-[url('/pattern-1.svg')] md:bg-[url('/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-20">
@@ -21,7 +76,7 @@ export default function Home() {
         <div className="w-full lg:w-2/3">
           <video
             type="video/mp4"
-            className="object-contain w-auto h-[450px] mx-auto rounded-md  transition-all duration-300 cursor-pointer"
+            className="object-contain shadow-2xl w-auto h-[550px] mx-auto rounded-md  transition-all duration-300 cursor-pointer"
             autoPlay={true}
             playsInline={true}
             muted={true}
@@ -85,12 +140,32 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section
         id="equipe"
         className="px-12 border-t-0 w-full bg-gradient-to-r from-blue-800 to-blue-950 pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20"
       >
         <h1 className="text-white text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
-          Nous retrouver
+          Le Lieu
+        </h1>
+        <div className="flex items-center justify-center w-full h-auto">
+          <ProGallery items={items} options={options} container={container} />
+        </div>
+      </section>
+
+      <img
+        className="relative bottom-[2px]"
+        src="/wave.svg"
+        width={"100%"}
+        height={"auto"}
+        alt=""
+      />
+      <section
+        id="equipe"
+        className="px-12 border-t-0 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20"
+      >
+        <h1 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
+          La Direction
         </h1>
         <div className="flex items-center justify-center w-full h-auto">
           <iframe
@@ -104,13 +179,6 @@ export default function Home() {
           ></iframe>
         </div>
       </section>
-      <img
-        className="relative bottom-[2px]"
-        src="/wave.svg"
-        width={"100%"}
-        height={"auto"}
-        alt=""
-      />
     </main>
   );
 }
