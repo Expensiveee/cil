@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         {/* <MiniNavbar /> */}
         <Navbar />
 
-        {children}
+        <main className="min-h-[calc(100vh-64px)]">{children}</main>
 
         {/* Footer */}
         <Footer />

@@ -20,17 +20,17 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex flex-col items-center justify-center">
-      <section className="px-4 bg-no-repeat bg-cover bg-[url('/pattern-1.svg')] md:bg-[url('/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-20">
+    <div className="flex flex-col items-center justify-center">
+      <section className="px-4 bg-no-repeat bg-cover bg-[url('/bg/pattern-1.svg')] md:bg-[url('/bg/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-20">
         <div className="w-full text-white md:text-blue-950 text-left lg:text-left lg:w-2/3 px-4">
           <h1 className="text-6xl font-bold">Clinique Dentaire CIL</h1>
-          <h3 className="text-2xl font-semibold my-6">
+          <h2 className="text-2xl font-semibold my-6">
             Votre sourire c'est notre gage
-          </h3>
+          </h2>
           <Link href={"tel:+212522946574"}>
             <button className="flex mx-auto bg-right-bottom lg:m-0 mb-8 items-center jus bg-blue-800 px-6 py-2 text-white rounded-md">
               <PhoneIcon className="h-4 w-4 mr-2" />
-              <span>Prendre Rendez-Vous</span>
+              <p>Prendre Rendez-Vous</p>
             </button>
           </Link>
         </div>
@@ -69,10 +69,12 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full lg:w-2/4 h-auto relative text-white shadow flex flex-col items-center justify-end">
-            <img
-              src={"/equipe/2.jpg"}
-              className="z-10 h-auto w-full rounded-xl shadow-xl"
-            />
+            <Link href={"/p/dr-alaoui-bouhamid-ahmed"}>
+              <img
+                src={"/equipe/2.jpg"}
+                className="z-10 h-auto w-full rounded-xl shadow-xl"
+              />
+            </Link>
             <div className="absolute bottom-0 left-0 z-20 ">
               <h3 className="text-xl pl-5 text-white font-bold text-left w-full">
                 Dr Alaoui Bouhamid Ahmed
@@ -157,7 +159,7 @@ export default function Home() {
 
       <img
         className="relative bottom-[2px]"
-        src="/wave.svg"
+        src="/bg/wave.svg"
         width={"100%"}
         height={"auto"}
         alt=""
@@ -182,6 +184,6 @@ export default function Home() {
           ></iframe>
         </div>
       </section>
-    </main>
+    </div>
   );
 }
