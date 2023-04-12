@@ -99,34 +99,58 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-12 border-t-0 w-full bg-gradient-to-r from-blue-800 to-blue-950 pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20">
+      <section className="px-12 border-t-0 w-full bg-gradient-to-r from-blue-800 to-blue-950 lg:pt-20 flex flex-col items-start justify-evenly py-12 ">
         <h1 className="text-white text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           Les Services
         </h1>
-        <div className="flex items-center flex-col lg:flex-row gap-12 justify-center w-full h-auto">
-          <div className="flex flex-col items-center gap-5 w-auto h-auto px-4 py-2">
-            <div className="flex items-center justify-center w-fit h-auto rounded-full p-3 bg-white">
+        <div className="flex items-center flex-wrap lg:flex-row gap-12 justify-center w-full h-auto">
+          <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
+            <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
                 alt="Tooth"
-                src={"/icons/tooth.svg"}
+                src={"/icons/teeth-whitening.svg"}
                 width={48}
                 height={48}
                 className="object-contain"
               />
             </div>
-            <h4 className="text-xl font-bold text-white">Le blanchiment</h4>
+            <h4 className="text-lg font-medium text-white">Blanchiment</h4>
           </div>
-          <div className="flex flex-col items-center gap-5 w-auto h-auto px-4 py-2">
-            <div className="flex items-center justify-center w-fit h-auto rounded-full p-3 bg-white">
+          <div className="flex flex-col items-center gap-5  w-1/3 lg:w-autoh-auto px-4 py-2">
+            <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
                 alt="Tooth"
-                src={"/icons/tooth.svg"}
+                src={"/icons/dental-implant.svg"}
                 width={48}
                 height={48}
                 className="object-contain"
               />
             </div>
-            <h4 className="text-xl font-bold text-white">Le blanchiment</h4>
+            <h4 className="text-lg font-medium text-white">Implant</h4>
+          </div>
+          <div className="flex flex-col items-center gap-5 w-1/3 lg:w-auto h-auto px-4 py-2">
+            <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
+              <Image
+                alt="Tooth"
+                src={"/icons/invisalign.svg"}
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            </div>
+            <h4 className="text-lg font-medium text-white">Invisalign</h4>
+          </div>
+          <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
+            <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
+              <Image
+                alt="Tooth"
+                src={"/icons/dental-care.svg"}
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            </div>
+            <h4 className="text-lg font-medium text-white">Chirurgie</h4>
           </div>
         </div>
       </section>
