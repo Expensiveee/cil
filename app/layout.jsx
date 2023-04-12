@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={poppins.variable}>
-      <body className="max-w-[1600px] mx-auto">
+      <body className="max-w-[2400px] mx-auto">
         {/* Navbar */}
         {/* <MiniNavbar /> */}
         <Navbar />
