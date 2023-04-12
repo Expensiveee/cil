@@ -104,7 +104,7 @@ export default function Home() {
           Les Services
         </h1>
         <div className="flex items-center flex-wrap lg:flex-row gap-12 justify-center w-full h-auto">
-          <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
+          <div className="flex flex-col items-center gap-5 w-1/3 lg:w-auto h-auto px-4 py-2">
             <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
                 alt="Tooth"
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
             <h4 className="text-lg font-medium text-white">Blanchiment</h4>
           </div>
-          <div className="flex flex-col items-center gap-5  w-1/3 lg:w-autoh-auto px-4 py-2">
+          <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
             <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
                 alt="Tooth"
