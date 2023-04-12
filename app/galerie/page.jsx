@@ -5,7 +5,7 @@ export default function About() {
     <main className="flex items-center justify-center">
       <div className="flex flex-col items-center justify-center">
         <Image
-          src="/images/hero.jpg"
+          src="/hero.jpg"
           alt="Hero Image"
           width={1200}
           height={900}

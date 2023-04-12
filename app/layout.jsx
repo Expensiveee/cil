@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="fr" className={poppins.variable}>
       <body className="max-w-[1600px] mx-auto">
         {/* Navbar */}
-        <MiniNavbar />
+        {/* <MiniNavbar /> */}
         <Navbar />
 
         {children}

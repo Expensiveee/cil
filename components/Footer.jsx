@@ -24,6 +24,7 @@ export default () => {
               width={170}
               height={170}
               className={"object-contain"}
+              alt={"Logo"}
             />
           </div>
           <div className="flex w-full text-center items-center gap-4 flex-col lg:flex-row justify-evenly text-slate-300 text-sm">
@@ -34,6 +35,7 @@ export default () => {
                   width={20}
                   height={20}
                   className="object-contain mr-2"
+                  alt={"Instagram Logo"}
                 />
                 @dr.alaouii
               </p>
@@ -44,6 +46,7 @@ export default () => {
                   src="/icons/ig.svg"
                   width={20}
                   height={20}
+                  alt={"Instagram Logo"}
                   className="object-contain mr-2"
                 />
                 @dr.chraibi
