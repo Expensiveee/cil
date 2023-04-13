@@ -154,6 +154,30 @@ export default function Home() {
             </div>
             <h4 className="text-lg font-medium text-white">Chirurgie</h4>
           </div>
+          <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
+            <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
+              <Image
+                alt="Tooth"
+                src={"/icons/kid.svg"}
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            </div>
+            <h4 className="text-lg font-medium text-white">Pédodonties</h4>
+          </div>
+          <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
+            <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
+              <Image
+                alt="Tooth"
+                src={"/icons/prothese.svg"}
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            </div>
+            <h4 className="text-lg font-medium text-white">Prothèses</h4>
+          </div>
         </div>
       </section>
 
