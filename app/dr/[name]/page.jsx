@@ -1,7 +1,7 @@
 "use client";
 
 export default async function Profile({ params }) {
-  const users = await fetch("http://localhost:3000/api/users")
+  const users = await fetch("https://cil.expensiveee.me/api/users")
     .then((res) => res.json())
     .then((res) => res.data);
 
