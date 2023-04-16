@@ -1,3 +1,4 @@
+"use client";
 const fetchData = async () => {
   const users = await fetch("https://cil.expensiveee.me/api/users")
     .then((res) => res.json())
