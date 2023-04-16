@@ -31,16 +31,17 @@ export default function RootLayout({ children }) {
 
         {/* Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-8MGFPP0Y1W"
+          async={true}
+          src="https://www.googletagmanager.com/gtag/js?id=G-RFRCCV74E8"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-       
-         gtag('config', 'G-8MGFPP0Y1W');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-RFRCCV74E8');
         `}
         </Script>
       </body>
