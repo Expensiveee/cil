@@ -47,12 +47,12 @@ export default async function Profile({ params }) {
               {user?.job_title}
             </h2>
           </div>
-          <div className="w-full flex items-center justify-center gap-4">
-            <Image
+          <div className="w-full flex items-center justify-start gap-4">
+            <img
               alt={user?.name}
               src={user?.main_image}
-              width={300}
-              height={200}
+              width={"100%"}
+              height={"auto"}
               className="object-contain rounded-xl shadow-xl mx-auto lg:mx-0"
             />
           </div>
