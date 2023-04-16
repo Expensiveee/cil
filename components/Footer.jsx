@@ -20,7 +20,7 @@ export default () => {
           </h3>
           <div className="flex justify-center items-center w-full h-auto my-12">
             <Image
-              src={"/logo-white.png"}
+              src={"/logo/logo-white.png"}
               width={170}
               height={170}
               className={"object-contain"}

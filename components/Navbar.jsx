@@ -14,7 +14,7 @@ export default () => {
       <div className="z-40 flex border-b-2 border-b-cil-100 md:border-none relative py-4 bg-transparent h-full items-center justify-between px-4">
         <Link href="/">
           <Image
-            src={"/logo.png"}
+            src={"/logo/logo.png"}
             width={130}
             height={130}
             alt={"Instagram Logo"}

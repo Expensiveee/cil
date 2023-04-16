@@ -55,10 +55,15 @@ export default function Home() {
 
         <div className="w-full gap-6 flex flex-col lg:flex-row items-center justify-center py-4">
           <div className="w-full lg:w-2/4 lg:h-auto relative text-white shadow flex flex-col items-center justify-end">
-            <img
-              src={"/equipe/1.jpg"}
+            <Link
               className="z-10 h-auto w-full rounded-xl shadow-xl"
-            />
+              href={"/dr/chraibi-jalil"}
+            >
+              <img
+                src={"/equipe/chraibi-jalil.jpg"}
+                className="z-10 h-auto w-full rounded-xl shadow-xl"
+              />
+            </Link>
             <div className="absolute bottom-0 left-0 z-20 ">
               <h3 className="text-xl pl-5 text-white font-bold text-left w-full">
                 Dr Jalil Chraibi
@@ -69,10 +74,13 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full lg:w-2/4 h-auto relative text-white shadow flex flex-col items-center justify-end">
-            <Link href={"/p/dr-alaoui-bouhamid-ahmed"}>
+            <Link
+              className="z-10 h-auto w-full rounded-xl shadow-xl"
+              href={"/dr/alaoui-bouhamid-ahmed"}
+            >
               <img
-                src={"/equipe/2.jpg"}
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
+                src={"/equipe/alaoui-bouhamid-ahmed.jpg"}
               />
             </Link>
             <div className="absolute bottom-0 left-0 z-20 ">
@@ -85,10 +93,16 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full lg:w-2/4 h-auto relative text-white shadow flex flex-col items-center justify-end">
-            <img
-              src={"/equipe/3.jpg"}
+            <Link
               className="z-10 h-auto w-full rounded-xl shadow-xl"
-            />
+              href={"/dr/khairouni-hind"}
+            >
+              <img
+                src={"/equipe/khairouni-hind.jpg"}
+                className="z-10 h-auto w-full rounded-xl shadow-xl"
+              />
+            </Link>
+
             <div className="absolute bottom-0 left-0 z-20 ">
               <h3 className="text-xl pl-5 text-white font-bold text-left w-full">
                 Dr Khairouni Hind
