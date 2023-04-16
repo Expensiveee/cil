@@ -13,5 +13,5 @@ export default async function Profile({ params }) {
 
   const user = data[params?.name];
 
-  return <div>{user}</div>;
+  return <div>{JSON.stringify(user)}</div>;
 }
