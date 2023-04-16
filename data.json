@@ -4,38 +4,83 @@
     "job_title": "Implantologiste",
     "phone": "05 22 94 65 74",
     "main_image": "/equipe/alaoui-bouhamid-ahmed.jpg",
-    "timeline": {
-      "1993": "Doctorat en médecine dentaire, faculté de médecine dentaire de Casablanca.",
-      "94-96": "Diplôme universitaire, clinique prothétique fixée, université de Lyon\nFormation continue en endodontie et implantologie",
-      "96-98": "Diplôme universitaire en parodontologie et occlusodontie fondamentale\nFormation continue en implantologie",
-      "98-2000": "Exercice privé dans une clinique multidisciplinaire\nParticipe à la formation continue autres\nCollègues dans le domaine de la parodontologie et la prothèse",
-      "2002-Présent": "Exercice privé dans sa propre clinique multidisciplinaire, Clinique dentaire CIL"
-    }
+    "timeline": [
+      {
+        "key": "1993",
+        "value": "Doctorat en médecine dentaire, faculté de médecine dentaire de Casablanca.fy"
+      },
+      {
+        "key": "94-96",
+        "value": "Diplôme universitaire, clinique prothétique fixée, université de Lyon\nFormation continue en endodontie et implantologie"
+      },
+      {
+        "key": "96-98",
+        "value": "Diplôme universitaire en parodontologie et occlusodontie fondamentale\nFormation continue en implantologie"
+      },
+      {
+        "key": "98-2000",
+        "value": "Exercice privé dans une clinique multidisciplinaire\nParticipe à la formation continue autres\nCollègues dans le domaine de la parodontologie et la prothèse"
+      },
+      {
+        "key": "2002-Présent",
+        "value": "Exercice privé dans sa propre clinique multidisciplinaire, Clinique dentaire CIL"
+      }
+    ]
   },
   "chraibi-jalil": {
     "name": "Dr Jalil Chraibi",
     "job_title": "Orthodontiste | Spécialiste Invisalign",
     "phone": "05 22 94 62 87",
     "main_image": "/equipe/chraibi-jalil.jpg",
-    "timeline": {
-      "1993": "Doctorat en médecine dentaire, faculté de médecine dentaire de Casablanca.",
-      "94-96": "Diplôme universitaire, clinique prothétique fixée, université de Lyon\nFormation continue en endodontie et implantologie",
-      "96-98": "Diplôme universitaire en parodontologie et occlusodontie fondamentale\nFormation continue en implantologie",
-      "98-2000": "Exercice privé dans une clinique multidisciplinaire\nParticipe à la formation continue autres\nCollègues dans le domaine de la parodontologie et la prothèse",
-      "2002-Présent": "Exercice privé dans sa propre clinique multidisciplinaire, Clinique dentaire CIL"
-    }
+    "timeline": [
+      {
+        "key": "1993",
+        "value": "Doctorat en médecine dentaire, faculté de médecine dentaire de Casablanca.fy"
+      },
+      {
+        "key": "94-96",
+        "value": "Diplôme universitaire, clinique prothétique fixée, université de Lyon\nFormation continue en endodontie et implantologie"
+      },
+      {
+        "key": "96-98",
+        "value": "Diplôme universitaire en parodontologie et occlusodontie fondamentale\nFormation continue en implantologie"
+      },
+      {
+        "key": "98-2000",
+        "value": "Exercice privé dans une clinique multidisciplinaire\nParticipe à la formation continue autres\nCollègues dans le domaine de la parodontologie et la prothèse"
+      },
+      {
+        "key": "2002-Présent",
+        "value": "Exercice privé dans sa propre clinique multidisciplinaire, Clinique dentaire CIL"
+      }
+    ]
   },
   "khairouni-hind": {
     "name": "Dr Khairouni Hind",
     "job_title": "Pédodontiste",
     "phone": "06 65 94 02 80",
     "main_image": "/equipe/khairouni-hind.jpg",
-    "timeline": {
-      "1993": "Doctorat en médecine dentaire, faculté de médecine dentaire de Casablanca.",
-      "94-96": "Diplôme universitaire, clinique prothétique fixée, université de Lyon\nFormation continue en endodontie et implantologie",
-      "96-98": "Diplôme universitaire en parodontologie et occlusodontie fondamentale\nFormation continue en implantologie",
-      "98-2000": "Exercice privé dans une clinique multidisciplinaire\nParticipe à la formation continue autres\nCollègues dans le domaine de la parodontologie et la prothèse",
-      "2002-Présent": "Exercice privé dans sa propre clinique multidisciplinaire, Clinique dentaire CIL"
-    }
+    "timeline": [
+      {
+        "key": "1993",
+        "value": "Doctorat en médecine dentaire, faculté de médecine dentaire de Casablanca.fy"
+      },
+      {
+        "key": "94-96",
+        "value": "Diplôme universitaire, clinique prothétique fixée, université de Lyon\nFormation continue en endodontie et implantologie"
+      },
+      {
+        "key": "96-98",
+        "value": "Diplôme universitaire en parodontologie et occlusodontie fondamentale\nFormation continue en implantologie"
+      },
+      {
+        "key": "98-2000",
+        "value": "Exercice privé dans une clinique multidisciplinaire\nParticipe à la formation continue autres\nCollègues dans le domaine de la parodontologie et la prothèse"
+      },
+      {
+        "key": "2002-Présent",
+        "value": "Exercice privé dans sa propre clinique multidisciplinaire, Clinique dentaire CIL"
+      }
+    ]
   }
 }
