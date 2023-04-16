@@ -11,7 +11,7 @@ async function getData() {
 export default async function Profile({ params }) {
   const data = await getData();
 
-  console.log(data);
+  const user = data[params?.name];
 
-  return <div>{data}</div>;
+  return <div>{user}</div>;
 }
