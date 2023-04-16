@@ -38,26 +38,26 @@ export default async function Profile({ params }) {
   return (
     <div className="flex flex-col w-full h-auto">
       <section className="flex flex-col lg:flex-row w-full h-auto">
-        <div className="flex flex-col items-left text-center lg:text-left justify-start w-full lg:w-2/5  h-auto gap-4 p-16">
-          <div className="flex flex-col w-full h-auto">
-            <h1 className="text-blue-950 text-5xl lg:text-5xl mx-auto lg:mx-0 font-semibold">
+        <div className="flex flex-col items-left text-center lg:text-left justify-start w-full lg:w-2/5 h-auto gap-4 p-4 py-6 lg:p-16">
+          <div className="flex flex-col w-full h-auto gap-2">
+            <h1 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold">
               {user?.name}
             </h1>
             <h2 className="text-cil-100 text-xl lg:text-2xl mx-auto lg:mx-0 font-semibold">
               {user?.job_title}
             </h2>
           </div>
-          <div className="flex mt-6">
+          <div className="w-full flex items-center justify-center gap-4">
             <Image
               alt={user?.name}
               src={user?.main_image}
-              width={400}
+              width={300}
               height={200}
               className="object-contain rounded-xl shadow-xl mx-auto lg:mx-0"
             />
           </div>
         </div>
-        <div className="flex flex-col items-left text-left justify-start w-full lg:w-3/5 bg-blue-900 h-auto gap-2 p-16">
+        <div className="flex flex-col items-left text-left justify-start w-full lg:w-3/5 bg-blue-900 gap-4 p-4 py-6 lg:p-16">
           <h2 className="text-white w-fit border-b-4 border-b-cil-100 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold mb-12">
             Expérience
           </h2>
@@ -75,7 +75,7 @@ export default async function Profile({ params }) {
                       <h3 className="text-cil-100 text-xl font-semibold">
                         {item?.key}
                       </h3>
-                      <p className="text-white text-base font-medium">
+                      <p className="text-white text-base font-medium whitespace-pre-line">
                         {item?.value}
                       </p>
                     </div>
