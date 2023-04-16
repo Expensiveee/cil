@@ -24,9 +24,9 @@ export default function Home() {
       <section className="px-4 bg-no-repeat bg-cover bg-[url('/bg/pattern-1.svg')] md:bg-[url('/bg/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-20">
         <div className="w-full text-white md:text-blue-950 text-left lg:text-left lg:w-2/3 px-4">
           <h1 className="text-6xl font-bold">Clinique Dentaire CIL</h1>
-          <h2 className="text-2xl font-semibold my-6">
+          <p className="text-2xl font-semibold my-6">
             Votre sourire c'est notre gage
-          </h2>
+          </p>
           <Link href={"tel:+212522946574"}>
             <button className="flex mx-auto bg-right-bottom lg:m-0 mb-8 items-center jus bg-blue-800 px-6 py-2 text-white rounded-md">
               <PhoneIcon className="h-4 w-4 mr-2" />
@@ -49,9 +49,9 @@ export default function Home() {
       </section>
 
       <section className="px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20">
-        <h1 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
+        <h2 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           L'Équipe
-        </h1>
+        </h2>
 
         <div className="w-full gap-6 flex flex-col lg:flex-row items-center justify-center py-4">
           <div className="w-full lg:w-2/4 lg:h-auto relative text-white shadow flex flex-col items-center justify-end">
@@ -116,9 +116,9 @@ export default function Home() {
       </section>
 
       <section className="px-12 border-t-0 w-full bg-gradient-to-r from-blue-800 to-blue-950 lg:pt-20 flex flex-col items-start justify-evenly py-12 ">
-        <h1 className="text-white text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
+        <h2 className="text-white text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           Les Services
-        </h1>
+        </h2>
         <div className="flex items-center flex-wrap lg:flex-row gap-12 justify-center w-full h-auto">
           <div className="flex flex-col items-center gap-5 w-1/3 lg:w-auto h-auto px-4 py-2">
             <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
@@ -207,9 +207,9 @@ export default function Home() {
         tabIndex={3}
         className="px-12 border-t-0 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20"
       >
-        <h1 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
+        <h2 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           La Direction
-        </h1>
+        </h2>
         <div className="flex items-center justify-center w-full h-auto">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.1893756426302!2d-7.658092685293807!3d33.57443198073858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d3276dc0fb73%3A0x5055c8faa79cacae!2sClinique%20Dentaire%20CIL!5e0!3m2!1sen!2sma!4v1681158273738!5m2!1sen!2sma"

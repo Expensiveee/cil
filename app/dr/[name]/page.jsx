@@ -9,11 +9,9 @@ async function getData() {
 }
 
 export async function generateMetadata({ params }) {
-  const data = await getData();
+  const { data } = await getData();
 
   const user = data[params?.name];
-
-  console.log(user);
 
   return {
     title: `${user?.name} - Clinique Dentaire CIL`,
@@ -22,9 +20,13 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Profile({ params }) {
-  const data = await getData();
+  const { data } = await getData();
 
   const user = data[params?.name];
 
-  return <div>{JSON.stringify(user)}</div>;
+  return (
+    <pre className="bg-gray-700 text-white">
+      {JSON.stringify(user, null, 2)}
+    </pre>
+  );
 }
