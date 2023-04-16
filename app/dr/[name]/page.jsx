@@ -11,7 +11,7 @@ export default async function Profile({ params }) {
   const users = await fetchData();
   console.log(users);
 
-  const user = users[params.name];
+  const user = users[params?.name];
   console.log(user);
 
   if (!user) return <div>Not found</div>;
