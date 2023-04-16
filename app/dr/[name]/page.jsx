@@ -9,9 +9,9 @@ async function getData() {
 }
 
 export async function generateMetadata({ params }) {
-  const { data } = await getData();
+  const data = await getData();
 
-  const user = data[params?.name];
+  const user = data[params?.name] ?? data.data[params?.name];
 
   return {
     title: `${user?.name} - Clinique Dentaire CIL`,
@@ -20,9 +20,9 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Profile({ params }) {
-  const { data } = await getData();
+  const data = await getData();
 
-  const user = data[params?.name];
+  const user = data[params?.name] ?? data.data[params?.name];
 
   return (
     <pre className="bg-gray-700 text-white">
