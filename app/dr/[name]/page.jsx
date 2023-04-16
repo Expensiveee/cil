@@ -1,8 +1,10 @@
+import { notFound } from "next/navigation";
+
 async function getData() {
   const res = await fetch(`${process.env.API_URL}/users`);
 
   if (!res.ok) {
-    throw new Error("Failed to fetch data");
+    notFound();
   }
 
   return res.json();
@@ -12,6 +14,8 @@ export async function generateMetadata({ params }) {
   const data = await getData();
 
   const user = data[params?.name] ?? data.data[params?.name];
+
+  if (!user) return notFound();
 
   return {
     title: `${user?.name} - Clinique Dentaire CIL`,
@@ -24,9 +28,18 @@ export default async function Profile({ params }) {
 
   const user = data[params?.name] ?? data.data[params?.name];
 
+  if (!user) return notFound();
+
   return (
-    <pre className="bg-gray-700 text-white">
-      {JSON.stringify(user, null, 2)}
-    </pre>
+    <div className="flex flex-col w-full h-auto">
+      <section className="flex w-full min-h-screen">
+        <div className="flex flex-row items-center justify-center w-full h-full">
+          <h1 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
+            {user?.name}
+          </h1>
+          <img src={user.main_image} alt="" />
+        </div>
+      </section>
+    </div>
   );
 }

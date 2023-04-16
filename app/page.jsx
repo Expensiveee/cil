@@ -4,21 +4,6 @@ import { PhoneIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
 export default function Home() {
-  const images = [
-    {
-      id: 0,
-      url: "/clinique/1.jpeg",
-    },
-    {
-      id: 1,
-      url: "/clinique/2.jpeg",
-    },
-    {
-      id: 2,
-      url: "/clinique/3.jpeg",
-    },
-  ];
-
   return (
     <div className="flex flex-col items-center justify-center">
       <section className="px-4 bg-no-repeat bg-cover bg-[url('/bg/pattern-1.svg')] md:bg-[url('/bg/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-20">

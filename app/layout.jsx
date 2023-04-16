@@ -12,8 +12,8 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Clinique Dentaire CIL",
-  description: "Votre sourire c'est notre gage",
-  color: "#1e40af",
+  description:
+    "Votre sourire c'est notre gage | Clinique Dentaire CIL, Dentiste, Invisalign, Implantologie, Pédodontie, Lumineers, Casablanca CIL Maroc",
 };
 
 export default function RootLayout({ children }) {
