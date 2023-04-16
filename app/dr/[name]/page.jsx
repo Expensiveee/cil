@@ -38,12 +38,12 @@ export default async function Profile({ params }) {
   return (
     <div className="flex flex-col w-full h-auto">
       <section className="flex flex-col lg:flex-row w-full h-auto">
-        <div className="flex flex-col items-left text-left justify-start w-full lg:w-2/5  h-auto gap-4 p-16">
+        <div className="flex flex-col items-left text-center lg:text-left justify-start w-full lg:w-2/5  h-auto gap-4 p-16">
           <div className="flex flex-col w-full h-auto">
-            <h1 className="text-blue-950 text-7xl lg:text-5xl mx-auto lg:mx-0 font-semibold">
+            <h1 className="text-blue-950 text-5xl lg:text-5xl mx-auto lg:mx-0 font-semibold">
               {user?.name}
             </h1>
-            <h2 className="text-cil-100 text-3xl lg:text-2xl mx-auto lg:mx-0 font-semibold">
+            <h2 className="text-cil-100 text-xl lg:text-2xl mx-auto lg:mx-0 font-semibold">
               {user?.job_title}
             </h2>
           </div>
