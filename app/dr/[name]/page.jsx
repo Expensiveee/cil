@@ -1,11 +1,13 @@
-"use client";
-
-export default async function Profile({ params }) {
+const fetchData = async () => {
   const users = await fetch("https://cil.expensiveee.me/api/users")
     .then((res) => res.json())
     .then((res) => res.data);
 
-  const user = users[params.name];
+  return users;
+};
+
+export default async function Profile({ params }) {
+  const user = await fetchData();
 
   if (!user) return <div>Not found</div>;
 
