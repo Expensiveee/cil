@@ -44,9 +44,11 @@ export default function Home() {
               className="z-10 h-auto w-full rounded-xl shadow-xl"
               href={"/dr/chraibi-jalil"}
             >
-              <img
+              <Image
                 alt="Dr Jalil Chraibi"
                 src={"/equipe/chraibi-jalil.jpg"}
+                width={400}
+                height={500}
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
               />
             </Link>
@@ -64,9 +66,11 @@ export default function Home() {
               className="z-10 h-auto w-full rounded-xl shadow-xl"
               href={"/dr/alaoui-bouhamid-ahmed"}
             >
-              <img
+              <Image
                 alt="Dr Alaoui Bouhamid Ahmed"
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
+                width={400}
+                height={500}
                 src={"/equipe/alaoui-bouhamid-ahmed.jpg"}
               />
             </Link>
@@ -84,9 +88,11 @@ export default function Home() {
               className="z-10 h-auto w-full rounded-xl shadow-xl"
               href={"/dr/khairouni-hind"}
             >
-              <img
+              <Image
                 alt="Dr Khairouni Hind"
                 src={"/equipe/khairouni-hind.jpg"}
+                width={400}
+                height={500}
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
               />
             </Link>
@@ -183,11 +189,11 @@ export default function Home() {
         </div>
       </section>
 
-      <img
-        className="relative bottom-[2px]"
+      <Image
+        className="relative w-full h-auto bottom-[2px]"
         src="/bg/wave.svg"
-        width={"100%"}
-        height={"auto"}
+        width={1920}
+        height={400}
         alt="Wave"
       />
 
