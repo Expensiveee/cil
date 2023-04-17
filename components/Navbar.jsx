@@ -19,7 +19,7 @@ export default () => {
             src={"/logo/logo.png"}
             width={130}
             height={130}
-            alt={"Instagram Logo"}
+            alt={"Clinic Dentaire CIL Logo"}
             className={"object-contain"}
           />
         </Link>

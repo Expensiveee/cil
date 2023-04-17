@@ -24,7 +24,7 @@ export default () => {
               width={170}
               height={170}
               className={"object-contain"}
-              alt={"Logo"}
+              alt={"Clinique Dentaire Logo White"}
             />
           </div>
           <div className="flex w-full text-center items-center gap-4 flex-col lg:flex-row justify-evenly text-slate-300 text-sm">

@@ -45,6 +45,7 @@ export default function Home() {
               href={"/dr/chraibi-jalil"}
             >
               <img
+                alt="Dr Jalil Chraibi"
                 src={"/equipe/chraibi-jalil.jpg"}
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
               />
@@ -64,6 +65,7 @@ export default function Home() {
               href={"/dr/alaoui-bouhamid-ahmed"}
             >
               <img
+                alt="Dr Alaoui Bouhamid Ahmed"
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
                 src={"/equipe/alaoui-bouhamid-ahmed.jpg"}
               />
@@ -83,6 +85,7 @@ export default function Home() {
               href={"/dr/khairouni-hind"}
             >
               <img
+                alt="Dr Khairouni Hind"
                 src={"/equipe/khairouni-hind.jpg"}
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
               />
@@ -120,7 +123,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
             <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
-                alt="Tooth"
+                alt="Dental Implant"
                 src={"/icons/dental-implant.svg"}
                 width={48}
                 height={48}
@@ -132,7 +135,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-5 w-1/3 lg:w-auto h-auto px-4 py-2">
             <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
-                alt="Tooth"
+                alt="Invisalign"
                 src={"/icons/invisalign.svg"}
                 width={48}
                 height={48}
@@ -144,7 +147,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
             <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
-                alt="Tooth"
+                alt="Dental Care"
                 src={"/icons/dental-care.svg"}
                 width={48}
                 height={48}
@@ -156,7 +159,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
             <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
-                alt="Tooth"
+                alt="Kid"
                 src={"/icons/kid.svg"}
                 width={48}
                 height={48}
@@ -168,7 +171,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-5  w-1/3 lg:w-auto h-auto px-4 py-2">
             <div className="flex items-center justify-center w-20 h-20 rounded-full p-3 bg-white">
               <Image
-                alt="Tooth"
+                alt="Prothese"
                 src={"/icons/prothese.svg"}
                 width={48}
                 height={48}
@@ -185,7 +188,7 @@ export default function Home() {
         src="/bg/wave.svg"
         width={"100%"}
         height={"auto"}
-        alt=""
+        alt="Wave"
       />
 
       <section className="px-6 lg:px-12 border-t-0 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20">

@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 
 async function getData() {
-  const res = await fetch(`${process.env.API_URL}/users`);
+  const res = await fetch(`${process.env.API_URL}/users`, {
+    cache: "no-cache",
+  });
 
   if (!res.ok) {
     notFound();
@@ -33,7 +35,7 @@ export default async function Profile({ params }) {
   return (
     <div className="flex flex-col w-full h-auto">
       <section className="flex flex-col lg:flex-row w-full h-fit">
-        <div className="flex flex-col items-left text-center lg:text-left justify-start w-full lg:w-2/5 h-auto gap-4 py-8 lg:p-4">
+        <div className="flex flex-col items-center text-center lg:text-left justify-start w-full lg:w-2/5 h-auto gap-4 py-8 lg:p-4">
           <div className="flex flex-col w-full h-auto gap-2">
             <h1 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold">
               {user?.name}
