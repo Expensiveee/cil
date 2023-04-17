@@ -31,7 +31,7 @@ export default () => {
             <a target={"_blank"} href={"https://www.instagram.com/dr.alaouii/"}>
               <p className="flex items-center text-sm font-semibold">
                 <Image
-                  src="/icons/ig.svg"
+                  src="/logo/instagram.svg"
                   width={20}
                   height={20}
                   className="object-contain mr-2"
@@ -43,7 +43,7 @@ export default () => {
             <a target={"_blank"} href={"https://www.instagram.com/dr.chraibi/"}>
               <p className="flex items-center text-sm font-semibold">
                 <Image
-                  src="/icons/ig.svg"
+                  src="/logo/instagram.svg"
                   width={20}
                   height={20}
                   alt={"Instagram Logo"}

@@ -9,6 +9,8 @@ export default () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
+  console.log(pathname);
+
   return (
     <nav className="z-50 sticky top-0 w-full md:max-w-[2400px] h-12 md:h-16 md:flex md:items-center border-b-0 md:border-b-2 md:border-b-cil-100  md:justify-between bg-white/40 shadow-md backdrop-blur-xl">
       <div className="z-40 flex border-b-2 border-b-cil-100 md:border-none relative py-4 bg-transparent h-full items-center justify-between px-4">
@@ -50,10 +52,10 @@ export default () => {
         </li>
         <li
           className={`flex items-center text-left h-full px-4 py-2 rounded-md lg:py-0 lg:rounded-none ${
-            pathname === "/galerie" ? "bg-blue-800 text-white" : ""
+            pathname.split("/")[1] === "dr" ? "bg-blue-800 text-white" : ""
           }`}
         >
-          <Link scroll={false} className="text-sm" href="#a-propos">
+          <Link scroll={false} className="text-sm" href="/dr">
             Notre Équipe
           </Link>
         </li>

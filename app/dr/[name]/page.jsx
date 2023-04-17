@@ -1,10 +1,7 @@
 import { notFound } from "next/navigation";
-import Image from "next/image";
 
 async function getData() {
-  const res = await fetch(`${process.env.API_URL}/users`, {
-    cache: "no-cache",
-  });
+  const res = await fetch(`${process.env.API_URL}/users`);
 
   if (!res.ok) {
     notFound();
@@ -33,12 +30,10 @@ export default async function Profile({ params }) {
 
   if (!user) return notFound();
 
-  console.log(user);
-
   return (
     <div className="flex flex-col w-full h-auto">
-      <section className="flex flex-col lg:flex-row w-full h-auto">
-        <div className="flex flex-col items-left text-center lg:text-left justify-start w-full lg:w-2/5 h-auto gap-4 p-4 py-6 lg:p-16">
+      <section className="flex flex-col lg:flex-row w-full h-fit">
+        <div className="flex flex-col items-left text-center lg:text-left justify-start w-full lg:w-2/5 h-auto gap-4 py-8 lg:p-4">
           <div className="flex flex-col w-full h-auto gap-2">
             <h1 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold">
               {user?.name}
@@ -51,7 +46,7 @@ export default async function Profile({ params }) {
             <img
               alt={user?.name}
               src={user?.main_image}
-              width={"100%"}
+              width={"90%"}
               height={"auto"}
               className="object-contain rounded-xl shadow-xl mx-auto lg:mx-0"
             />
@@ -66,7 +61,10 @@ export default async function Profile({ params }) {
               return (
                 <li key={index}>
                   <div className="flex flex-row items-center justify-start w-full h-auto gap-2">
-                    <div className="flex flex-col items-center shadow-2xl justify-center bg-blue-950 rounded-full">
+                    <div className="flex flex-col items-center relative shadow-2xl justify-center bg-blue-950 rounded-full">
+                      {index !== user?.timeline.length - 1 && (
+                        <div className="w-0.5 h-full bottom-[calc(-100%-10px)] left-1/2 absolute bg-cil-100" />
+                      )}
                       <p className="flex items-center justify-center p-5 text-cil-100 w-6 h-6 text-base font-semibold">
                         {index + 1}
                       </p>

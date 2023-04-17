@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20">
+      <section className="px-6 lg:px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20">
         <h2 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           L'Équipe
         </h2>
@@ -100,7 +100,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-12 border-t-0 w-full bg-gradient-to-r from-blue-800 to-blue-950 lg:pt-20 flex flex-col items-start justify-evenly py-12 ">
+      <section className="px-6 lg:px-12 border-t-0 w-full bg-gradient-to-r from-blue-800 to-blue-950 lg:pt-20 flex flex-col items-start justify-evenly py-12 ">
         <h2 className="text-white text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           Les Services
         </h2>
@@ -188,10 +188,7 @@ export default function Home() {
         alt=""
       />
 
-      <section
-        tabIndex={3}
-        className="px-12 border-t-0 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20"
-      >
+      <section className="px-6 lg:px-12 border-t-0 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20">
         <h2 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           La Direction
         </h2>
