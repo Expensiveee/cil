@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://clinicdentairecil.com/sitemap.xml
+Sitemap: https://new.clinicdentairecil.com/sitemap.xml
