@@ -22,6 +22,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `${user?.name} - Clinique Dentaire CIL`,
     description: `Dentiste à Casablanca, ${user?.name} ${user?.job_title}`,
+    alternates: {
+      canonical: `https://new.clinicdentairecil.com/dr/${params?.name}`,
+    },
   };
 }
 
