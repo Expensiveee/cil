@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Turn as Hamburger } from "hamburger-react";
@@ -19,6 +19,7 @@ export default () => {
             height={130}
             alt={"Clinic Dentaire CIL Logo"}
             className={"object-contain"}
+            priority={true}
           />
         </Link>
         <span onClick={() => setIsOpen(!isOpen)} className="md:hidden">

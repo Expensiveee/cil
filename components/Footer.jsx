@@ -1,6 +1,5 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
+import Image from "next/legacy/image";
 
 export default () => {
   return (
@@ -8,11 +7,11 @@ export default () => {
       <div className="flex w-full gap-20 items-center justify-center lg:justify-evenly flex-col lg:flex-row">
         <div className="flex flex-col w-full text-center lg:text-left lg:w-1/4 h-auto">
           <h5 className="text-xl font-bold text-slate-200 mb-4">Équipe</h5>
-          <ul className="text-md text-slate-100">
+          <ol className="text-md text-slate-100">
             <li>Dr Alaoui Bouhamid Ahmed - Implantologiste</li>
             <li>Dr Khairouni Hind - Pédodontiste</li>
             <li>Dr Jalil Chraibi - Orthodonsite</li>
-          </ul>
+          </ol>
         </div>
         <div className="flex flex-col w-full lg:w-2/4 h-auto">
           <p className="text-3xl font-bold text-center text-white">
