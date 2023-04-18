@@ -12,6 +12,10 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Clinique Dentaire CIL",
+  icons: {
+    icon: { url: "/favicon.ico", type: "image/ico" },
+    shortcut: { url: "/favicon.ico", type: "image/ico" },
+  },
   keywords: [
     "Dentiste",
     "Invisalign",
