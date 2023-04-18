@@ -43,19 +43,14 @@ export default () => {
         </li>
         <li
           className={`flex items-center text-left h-full px-4 py-2 rounded-md lg:py-0 lg:rounded-none ${
-            pathname === "/galerie" ? "bg-blue-800 text-white" : ""
-          }`}
-        >
-          <Link scroll={false} className="text-sm" href="/galerie">
-            Galerie
-          </Link>
-        </li>
-        <li
-          className={`flex items-center text-left h-full px-4 py-2 rounded-md lg:py-0 lg:rounded-none ${
             pathname.split("/")[1] === "dr" ? "bg-blue-800 text-white" : ""
           }`}
         >
-          <Link scroll={false} className="text-sm" href="/dr">
+          <Link
+            scroll={false}
+            className="text-sm"
+            href="/dr/alaoui-bouhamid-ahmed"
+          >
             Notre Équipe
           </Link>
         </li>
