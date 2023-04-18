@@ -50,7 +50,7 @@ export default async function Profile({ params }) {
               src={user?.main_image}
               width={"90%"}
               height={"auto"}
-              className="object-contain rounded-xl shadow-xl mx-auto lg:mx-0"
+              className="object-contain rounded-full shadow-xl mx-auto lg:mx-0"
             />
           </div>
         </div>
