@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Clinique Dentaire CIL: Soins dentaires de qualité à Casablanca",
+  title: "Clinique Dentaire CIL",
   description:
     "Votre sourire c'est notre gage | Clinique Dentaire CIL, Dentiste, Invisalign, Implantologie, Pédodontie, Lumineers, Casablanca CIL Maroc",
 };
