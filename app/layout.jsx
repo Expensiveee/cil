@@ -32,7 +32,9 @@ export const metadata = {
   authors: [{ name: "Expensiveee", email: "ghalii176@gmail.com" }],
   description:
     "Votre sourire c'est notre gage | Clinique Dentaire CIL, Dentiste, Invisalign, Implantologie, Pédodontie, Lumineers, Casablanca CIL Maroc",
-  canonical: "https://new.clinicdentairecil.com/",
+  alternates: {
+    canonical: "https://new.clinicdentairecil.com/",
+  },
 };
 
 export default function RootLayout({ children }) {
