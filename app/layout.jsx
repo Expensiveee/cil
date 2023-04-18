@@ -12,8 +12,27 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Clinique Dentaire CIL",
+  keywords: [
+    "Dentiste",
+    "Invisalign",
+    "Implantologie",
+    "Pédodontie",
+    "Lumineers",
+    "Clinique",
+    "CIL",
+    "Dentaire",
+    "Casablanca CIL Maroc",
+    "Maroc",
+    "Dentiste Casablanca",
+    "Dentiste Casablanca CIL",
+    "Dentiste Casablanca Maroc",
+    "Dentiste Casablanca CIL Maroc",
+    "Casablanca",
+  ],
+  authors: [{ name: "Expensiveee", email: "ghalii176@gmail.com" }],
   description:
     "Votre sourire c'est notre gage | Clinique Dentaire CIL, Dentiste, Invisalign, Implantologie, Pédodontie, Lumineers, Casablanca CIL Maroc",
+  canonical: "https://new.clinicdentairecil.com/",
 };
 
 export default function RootLayout({ children }) {
