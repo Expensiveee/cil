@@ -33,6 +33,15 @@ export default function Home() {
         </div>
       </section>
 
+      <p className="text-lg font-bold w-full h-auto lg:3/4 px-4 py-20">
+        La Clinique Dentaire CIL est une institution qui rassemble différentes
+        spécialités de la médecine dentaire, permettant ainsi de répondre à vos
+        besoins. Que vous soyez enfant ou adulte, vous n'aurez pas à vous
+        déplacer d'un cabinet dentaire à un autre. Située dans un quartier
+        résidentiel de la ville de Casablanca, la clinique est facile d'accès et
+        proche de tous les points à besoins fonctionnels de la ville.
+      </p>
+
       <section className="px-6 lg:px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20">
         <h2 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
           L'Équipe
