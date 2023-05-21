@@ -49,7 +49,7 @@ export default async function Profile({ params }) {
             </h2>
           </div>
           <div className="w-full flex items-center justify-start gap-4">
-            <Image
+            <img
               alt={user?.name ?? "Profile Picture"}
               src={user?.main_image}
               width={"90%"}

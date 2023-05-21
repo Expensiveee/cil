@@ -32,7 +32,7 @@ export default function Home() {
           </video>
         </div>
       </section>
-      <section className="flex w-full h-auto items-center justify-center my-20 py-12 bg-gradient-to-r from-blue-800 to-blue-950 items">
+      {/*       <section className="flex w-full h-auto items-center justify-center my-20 py-12 bg-gradient-to-r from-blue-800 to-blue-950 items">
         <p className="text-lg text-white font-light w-full px-4 h-auto lg:w-4/5">
           La Clinique Dentaire CIL est une institution qui rassemble différentes
           spécialités de la médecine dentaire, permettant ainsi de répondre à
@@ -41,7 +41,7 @@ export default function Home() {
           résidentiel de la ville de Casablanca, la clinique est facile d'accès
           et proche de tous les points à besoins fonctionnels de la ville.
         </p>
-      </section>
+      </section> */}
 
       <section className="px-6 lg:px-12 w-full pt-12 lg:pt-20 flex flex-col items-start justify-evenly py-20">
         <h2 className="text-blue-950 text-4xl lg:text-5xl mx-auto lg:mx-0 font-semibold border-b-4 pb-2 border-b-cil-100 mb-12">
@@ -59,6 +59,7 @@ export default function Home() {
                 src={"/equipe/chraibi-jalil.jpg"}
                 width={400}
                 height={500}
+                layout="responsive"
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
               />
             </Link>
@@ -81,6 +82,7 @@ export default function Home() {
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
                 width={400}
                 height={500}
+                layout="responsive"
                 src={"/equipe/alaoui-bouhamid-ahmed.jpg"}
               />
             </Link>
@@ -103,6 +105,7 @@ export default function Home() {
                 src={"/equipe/khairouni-hind.jpg"}
                 width={400}
                 height={500}
+                layout="responsive"
                 className="z-10 h-auto w-full rounded-xl shadow-xl"
               />
             </Link>
@@ -199,8 +202,8 @@ export default function Home() {
         </div>
       </section>
 
-      <Image
-        className="relative w-full h-auto bottom-[2px]"
+      <img
+        className="relative w-full h-auto top-0"
         src="/bg/wave.svg"
         width={1920}
         height={400}
