@@ -2,7 +2,9 @@ import { notFound } from "next/navigation";
 import Image from "next/legacy/image";
 
 async function getData() {
-  const res = await fetch(`${process.env.API_URL}/users`);
+  const res = await fetch(`${process.env.API_URL}/users`, {
+    cache: "no-cache",
+  });
 
   if (!res.ok) {
     notFound();

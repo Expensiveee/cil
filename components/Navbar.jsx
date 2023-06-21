@@ -64,7 +64,7 @@ export default () => {
             />
           </p>
           <ul
-            className={`mt-2 lg:right-5 w-full h-auto bg-white px-2 py-2 rounded-lg shadow-md transition-all duration-500 ${
+            className={`mt-2 lg:right-5 w-full h-auto bg-neutral-100 border border-black/10 px-2 py-2 rounded-lg shadow-md transition-all duration-500 ${
               isDrOpen
                 ? "opacity-100 top-full relative lg:absolute"
                 : "opacity-0 pointer-events-none top-0 absolute"
