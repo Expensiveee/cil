@@ -6,12 +6,12 @@ export default () => {
     <footer className="flex gap-32 px-4 lg:px-20 bg-blue-950 flex-col items-center justify-evenly w-full h-auto py-16">
       <div className="flex w-full gap-20 items-center justify-center lg:justify-evenly flex-col lg:flex-row">
         <div className="flex flex-col w-full text-center lg:text-left lg:w-1/4 h-auto">
-          <h5 className="text-xl font-bold text-slate-200 mb-4">Équipe</h5>
-          <ol className="text-md text-slate-100">
+          <h5 className="text-2xl font-bold text-white mb-4">Équipe</h5>
+          <ul className="text-md text-slate-200 space-y-2">
             <li>Dr Alaoui Bouhamid Ahmed - Implantologiste</li>
             <li>Dr Khairouni Hind - Pédodontiste</li>
             <li>Dr Jalil Chraibi - Orthodonsite</li>
-          </ol>
+          </ul>
         </div>
         <div className="flex flex-col w-full lg:w-2/4 h-auto">
           <p className="text-3xl font-bold text-center text-white">
@@ -46,7 +46,7 @@ export default () => {
                   width={20}
                   height={20}
                   alt={"Instagram Logo"}
-                  className="object-contain mr-2"
+                  className="object-contain mr-4"
                 />
                 @dr.chraibi
               </p>
@@ -54,8 +54,8 @@ export default () => {
           </div>
         </div>
         <div className="flex flex-col text-center lg:text-left w-full lg:w-1/4 h-auto">
-          <h5 className="text-xl font-bold text-slate-200 mb-4">Horaire</h5>
-          <ul className="text-sm text-slate-100">
+          <h5 className="text-2xl font-bold text-white mb-4">Horaire</h5>
+          <ul className="text-sm text-slate-200 space-y-2">
             <li>
               <b>Lundi</b>: 8:30 - 19:30
             </li>

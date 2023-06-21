@@ -6,8 +6,8 @@ import Image from "next/legacy/image";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <section className="px-4 bg-no-repeat bg-cover bg-[url('/bg/pattern-1.svg')] md:bg-[url('/bg/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-20">
-        <div className="w-full text-white md:text-blue-950 text-left lg:text-left lg:w-2/3 px-4">
+      <section className="px-4 bg-no-repeat bg-cover bg-[url('/bg/pattern-1.svg')] lg:bg-[url('/bg/pattern.svg')] w-full min-h-[32rem] h-full pt-8 lg:pt-12 flex flex-col lg:flex-row items-center justify-evenly py-20">
+        <div className="w-full text-white lg:text-blue-950 text-left lg:text-left lg:w-2/3 px-4">
           <h1 className="text-6xl font-bold">Clinique Dentaire CIL</h1>
           <p className="text-2xl font-semibold my-6">
             Votre sourire c'est notre gage

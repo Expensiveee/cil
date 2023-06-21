@@ -3,7 +3,7 @@
     "name": "Dr. Alaoui\nBouhamid Ahmed",
     "job_title": "Implantologiste",
     "phone": "05 22 94 65 74",
-    "main_image": "/equipe/alaoui-bouhamid-ahmed-circle.png",
+    "main_image": "/equipe/alaoui-bouhamid-ahmed.jpg",
     "specialities": [
       "L'implantologie",
       "Les prothèses",
@@ -32,13 +32,21 @@
         "key": "2002-Présent",
         "value": "Exercice privé dans sa propre clinique multidisciplinaire, Clinique dentaire CIL"
       }
+    ],
+    "case_studies": [
+      "/case-studies/alaoui-bouhamid-ahmed/1.jpg",
+      "/case-studies/alaoui-bouhamid-ahmed/2.jpg",
+      "/case-studies/alaoui-bouhamid-ahmed/3.jpg",
+      "/case-studies/alaoui-bouhamid-ahmed/4.jpg",
+      "/case-studies/alaoui-bouhamid-ahmed/5.jpg",
+      "/case-studies/alaoui-bouhamid-ahmed/6.webp"
     ]
   },
   "chraibi-jalil": {
     "name": "Dr. Jalil Chraibi",
     "job_title": "Orthodontiste | Spécialiste Invisalign",
     "phone": "05 22 94 62 87",
-    "main_image": "/equipe/chraibi-jalil-circle.png",
+    "main_image": "/equipe/chraibi-jalil.jpg",
     "specialities": [
       "Soins Préventifs",
       "Invisalign",
@@ -86,13 +94,21 @@
         "key": "2002 - Présent",
         "value": "Exercice privé dans sa propre clinique multidisciplinaire, Clinique Dentaire CIL."
       }
+    ],
+    "case_studies": [
+      "/case-studies/chraibi-jalil/1.jpg",
+      "/case-studies/chraibi-jalil/2.jpg",
+      "/case-studies/chraibi-jalil/3.jpg",
+      "/case-studies/chraibi-jalil/4.jpg",
+      "/case-studies/chraibi-jalil/5.jpg",
+      "/case-studies/chraibi-jalil/6.jpg"
     ]
   },
   "khairouni-hind": {
     "name": "Dr. Khairouni\nHind",
     "job_title": "Pédodontiste",
     "phone": "06 65 94 02 80",
-    "main_image": "/equipe/khairouni-hind-circle.png",
+    "main_image": "/equipe/khairouni-hind.jpg",
     "specialities": [
       "Préventions",
       "Traitement Des Caries",
@@ -133,6 +149,14 @@
         "key": "2002 - Présent",
         "value": "Pédodontiste (dentisterie pédiatrique exclusive) dans sa propre clinique multidisciplinaire, Clinique Dentaire CIL"
       }
+    ],
+    "case_studies": [
+      "/case-studies/khairouni-hind/1.webp",
+      "/case-studies/khairouni-hind/2.webp",
+      "/case-studies/khairouni-hind/3.webp",
+      "/case-studies/khairouni-hind/4.webp",
+      "/case-studies/khairouni-hind/5.webp",
+      "/case-studies/khairouni-hind/6.webp"
     ]
   }
 }
