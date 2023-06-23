@@ -35,7 +35,7 @@ export default () => {
         }`}
       >
         <li
-          className={`flex items-center text-left h-full px-4 py-4 rounded-md lg:py-0 lg:rounded-none ${
+          className={`flex items-center text-left px-4 py-4 rounded-md lg:py-0 lg:rounded-none ${
             pathname === "/" ? "bg-blue-800 text-white" : ""
           }`}
         >
@@ -48,7 +48,7 @@ export default () => {
           </Link>
         </li>
         <li
-          className={`flex flex-col text-left cursor-pointer items-center h-full px-4 py-4 rounded-md lg:py-0 lg:rounded-none ${
+          className={`flex flex-col text-left cursor-pointer items-center px-4 py-4 rounded-md lg:py-0 lg:rounded-none ${
             pathname.split("/")[1] === "dr" ? "bg-blue-800 text-white" : ""
           }`}
         >
