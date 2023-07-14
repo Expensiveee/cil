@@ -3,6 +3,7 @@ import Navbar from "@components/Navbar";
 import "@styles/globals.css";
 import Script from "next/script";
 import Footer from "@components/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -37,7 +38,7 @@ export const metadata = {
   description:
     "Votre sourire c'est notre gage | Clinique Dentaire CIL, Dentiste, Invisalign, Implantologie, Pédodontie, Lumineers, Casablanca CIL Maroc",
   alternates: {
-    canonical: "https://new.clinicdentairecil.com/",
+    canonical: "https://clinicdentairecil.com/",
   },
 };
 
@@ -49,7 +50,10 @@ export default function RootLayout({ children }) {
         {/* <MiniNavbar /> */}
         <Navbar />
 
-        <main className="min-h-[calc(100vh-64px)]">{children}</main>
+        <main className="min-h-[calc(100vh-64px)]">
+		{children}
+		<Analytics />
+	</main>
 
         {/* Footer */}
         <Footer />
