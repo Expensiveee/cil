@@ -110,7 +110,15 @@ export default async function Profile({ params }) {
           </h2>
           <div className="flex flex-wrap gap-4 items-start justify-center">
             {user?.case_studies.map((item, index) => {
-              return <img key={index} src={item} />;
+              return (
+                <Image
+                  key={index}
+                  src={item}
+                  priority={true}
+                  width={200}
+                  height={600}
+                />
+              );
             })}
           </div>
         </div>
