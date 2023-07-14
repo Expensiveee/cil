@@ -13,7 +13,7 @@ export default () => {
   const pathname = usePathname();
 
   return (
-    <nav className="z-50 sticky top-0 w-full lg:max-w-[2400px] h-12 lg:h-16 lg:flex lg:items-center border-b-0 lg:border-b-2 lg:border-b-cil-100  lg:justify-between bg-white/40 shadow-md backdrop-blur-xl px-6">
+    <nav className="z-50 sticky top-0 w-full lg:max-w-[2400px] h-12 lg:h-16 lg:flex lg:items-center border-b-0 lg:border-b-2 lg:border-b-cil-100  lg:justify-between bg-white/40 shadow-md backdrop-blur-xl">
       <div className="z-40 flex border-b-2 border-b-cil-100 lg:border-none relative py-4 bg-transparent h-full items-center justify-between px-4">
         <Link href="/">
           <Image
