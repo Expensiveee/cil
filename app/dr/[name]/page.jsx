@@ -46,11 +46,11 @@ export default async function Profile({ params }) {
               {user?.job_title}
             </h2>
           </div>
-          <div className="w-full mx-auto flex flex-col lg:flex-row items-center justify-start gap-4">
+          <div className="w-full mx-auto flex flex-col lg:flex-row items-center justify-start gap-4 px-10 lg:px-0">
             <Image
               alt={user?.name ?? "Profile Picture"}
               src={user?.main_image}
-              width={800}
+              width={600}
               height={400}
               priority={true}
               className="aspect-auto rounded-md shadow-xl mx-auto"
