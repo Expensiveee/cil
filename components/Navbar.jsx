@@ -72,7 +72,6 @@ export default () => {
                 setIsDrOpen(false);
                 setIsOpen(false);
               }}
-              scroll={false}
               className="text-sm h-full w-full flex items-center"
               href="/dr/alaoui-bouhamid-ahmed"
             >
@@ -82,7 +81,6 @@ export default () => {
             </Link>
             <Link
               onClick={() => setIsDrOpen(false)}
-              scroll={false}
               className="text-sm h-full w-full flex items-center"
               href="/dr/chraibi-jalil"
             >
@@ -92,7 +90,6 @@ export default () => {
             </Link>
             <Link
               onClick={() => setIsDrOpen(false)}
-              scroll={false}
               className="text-sm h-full w-full flex items-center"
               href="/dr/khairouni-hind"
             >
