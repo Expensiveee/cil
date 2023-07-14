@@ -115,8 +115,8 @@ export default async function Profile({ params }) {
                   key={index}
                   src={item}
                   priority={true}
-                  width={500}
-                  height={700}
+                  width={400}
+                  height={600}
                 />
               );
             })}
