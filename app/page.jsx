@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { PhoneIcon } from "@heroicons/react/24/solid";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -56,11 +56,11 @@ export default function Home() {
             >
               <Image
                 alt="Dr Jalil Chraibi"
-                src={"/equipe/chraibi-jalil.jpg"}
                 width={400}
                 height={500}
                 layout="responsive"
-                className="z-10 h-auto w-full rounded-xl shadow-xl"
+                src={"/equipe/chraibi-jalil.jpg"}
+                className="z-10 rounded-xl shadow-xl"
               />
             </Link>
             <div className="absolute bottom-0 left-0 z-20 ">

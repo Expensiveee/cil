@@ -1,10 +1,8 @@
 import { notFound } from "next/navigation";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 async function getData() {
-  const res = await fetch(`${process.env.API_URL}/users`, {
-    cache: "no-cache",
-  });
+  const res = await fetch(`${process.env.API_URL}/users`);
 
   if (!res.ok) {
     notFound();
@@ -49,11 +47,12 @@ export default async function Profile({ params }) {
             </h2>
           </div>
           <div className="w-full mx-auto flex flex-col lg:flex-row items-center justify-start gap-4">
-            <img
+            <Image
               alt={user?.name ?? "Profile Picture"}
               src={user?.main_image}
-              width={"80%"}
-              height={"auto"}
+              width={800}
+              height={400}
+              priority={true}
               className="aspect-auto rounded-md shadow-xl mx-auto"
             />
           </div>
