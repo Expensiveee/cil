@@ -13,7 +13,7 @@ export default function Home() {
             Votre sourire c'est notre gage
           </p>
           <Link href={"tel:+212522946574"}>
-            <button className="flex mx-auto bg-right-bottom lg:m-0 mb-8 items-center jus bg-blue-800 px-6 py-2 text-white rounded-md">
+            <button className="flex mx-auto bg-right-bottom hover:bg-blue-800/60 transition-colors duration-150 ease-in-out lg:m-0 mb-8 items-center jus bg-blue-800 px-6 py-2 text-white rounded-md">
               <PhoneIcon className="h-4 w-4 mr-2" />
               <p>Prendre Rendez-Vous</p>
             </button>
