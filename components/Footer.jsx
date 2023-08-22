@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/legacy/image";
 import Link from "next/link";
+import { PhoneIcon } from "react-feather-icons"; 
 
 export default () => {
   return (
@@ -18,7 +19,7 @@ export default () => {
           <p className="text-3xl font-bold text-center text-white">
             Votre sourire c'est notre gage.
           </p>
-          <div className="flex justify-center items-center w-full h-auto my-12">
+          <div className="flex items-col gap-8 justify-center items-center w-full h-auto my-12">
             <Image
               src={"/logo/logo-white.png"}
               width={170}
@@ -26,6 +27,12 @@ export default () => {
               className={"object-contain"}
               alt={"Clinique Dentaire Logo White"}
             />
+            <Link href={"tel:+212522946574"}>
+            <button className="flex mx-auto bg-right-bottom hover:bg-blue-800/60 transition-colors duration-150 ease-in-out lg:m-0 mb-8 items-center jus bg-blue-800 px-6 py-2 text-white rounded-md">
+              <PhoneIcon className="h-4 w-4 mr-2" />
+              <p>Prendre Rendez-Vous</p>
+            </button>
+          </Link>
           </div>
           <div className="flex w-full text-center items-center gap-4 flex-col lg:flex-row justify-evenly text-slate-300 text-sm">
             <a target={"_blank"} href={"https://www.instagram.com/dr.alaouii/"}>
