@@ -79,7 +79,7 @@ export default () => {
         </div>
       </div>
 
-      <div className="flex w-full text-center flex-col lg:flex-row justify-evenly text-white text-xs">
+      <div className="flex w-full text-center flex-col gap-10 lg:flex-row justify-evenly items-center text-white text-xs">
         <p>© {new Date().getFullYear()} - Clinique Dentaire CIL</p>
         <div>
           <a
@@ -103,13 +103,12 @@ export default () => {
             </svg>
           </a>
         </div>
-        <p className="text-left flex flex-col gap-2">
+        <p className="text-center flex flex-col gap-2">
           <span className="font-bold">Siteweb fait par:</span>
-          <span className="flex flex-col lg:flex-row gap-1">
+          <span className="flex flex-col lg:flex-row gap-1 text-center">
             <u>
               <Link href={"tel:+212653693657"}>+212653693657</Link>
             </u>
-            /
             <u>
               <Link href={"mailto:ghalii176@gmail.com, ghalii12222@gmail.com"}>
                 ghalii176@gmail.com
