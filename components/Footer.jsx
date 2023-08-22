@@ -19,7 +19,7 @@ export default () => {
           <p className="text-3xl font-bold text-center text-white">
             Votre sourire c'est notre gage.
           </p>
-          <div className="flex items-col gap-8 justify-center items-center w-full h-auto my-12">
+          <div className="flex flex-col gap-8 justify-center items-center w-full h-auto my-12">
             <Image
               src={"/logo/logo-white.png"}
               width={170}
