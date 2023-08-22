@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/legacy/image";
 import Link from "next/link";
-import { PhoneIcon } from "react-feather-icons"; 
+import { PhoneIcon } from "@heroicons/react/24/solid";
 
 export default () => {
   return (
