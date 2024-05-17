@@ -110,19 +110,6 @@ export default () => {
             </svg>
           </a>
         </div>
-        <p className="text-center flex flex-col gap-2">
-          <span className="font-bold">Siteweb fait par:</span>
-          <span className="flex flex-col lg:flex-row gap-1 text-center">
-            <u>
-              <Link href={"tel:+212653693657"}>+212653693657</Link>
-            </u>
-            <u>
-              <Link href={"mailto:ghalii176@gmail.com, ghalii12222@gmail.com"}>
-                ghalii176@gmail.com
-              </Link>
-            </u>
-          </span>
-        </p>
       </div>
     </footer>
   );
